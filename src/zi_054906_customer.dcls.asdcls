@@ -1,0 +1,7 @@
+@EndUserText.label: 'Customer'
+@MappingRole: true
+define role ZI_054906_CUSTOMER {
+  grant select on ZI_054906_CUSTOMER
+    where (CountryCode) = aspect pfcg_auth(/DMO/TRVL, /DMO/CNTRY, ACTVT = '03');
+            
+}
