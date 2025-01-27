@@ -1,6 +1,6 @@
 # Musterlösungen Übungsaufgaben
 
-Dieses Repo beinhaltet Musterlösungen zu den Übungsaufgaben auf der Webseite [Anwendungsentwicklung in SAP S/4HANA](https://appenmaier.github.io/s4hana/). Die Verwendung des Repos wird [hier](https://appenmaier.github.io/s4hana/additional-material/instructions/use-git-ondemand) beschrieben.
+Dieses Repo beinhaltet Musterlösungen zu den Übungsaufgaben auf der Webseite [Anwendungsentwicklung in SAP S/4HANA](https://appenmaier.github.io/s4hana/). Das Arbeiten mit abapGit-Repos wird [hier](https://appenmaier.github.io/s4hana/additional-material/instructions/use-git-ondemand) beschrieben.
 
 ## Aufbau
 
