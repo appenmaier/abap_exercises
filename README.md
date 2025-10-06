@@ -4,7 +4,7 @@ Dieses Repo beinhaltet Musterlösungen zu den Übungsaufgaben auf der Webseite [
 
 ## Aufbau
 
-- Im Wurzelpaket befinden sich alle Entwicklungsobjekte, die für die Bearbeitung der Übungsaufgaben erforderlich ist
+- Im Wurzelpaket befinden sich alle Entwicklungsobjekte, die für die Bearbeitung der Übungsaufgaben erforderlich sind
 - Im Paket `ZABAP_ABAP` befinden sich Musterlösungen zu den ABAP Übungsaufgaben
 - Im Paket `ZABAP_ABAP_OBJECTS` befinden sich Musterlösungen zu den ABAP Objects Übungsaufgaben
 - Im Paket `ZABAP_ABAP_CDS` befinden sich Musterlösungen zu den ABAP CDS Übungsaufgaben
