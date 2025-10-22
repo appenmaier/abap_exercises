@@ -10,7 +10,7 @@ ENDCLASS.
 CLASS zcl_054906_abap_05 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     DATA customer_id TYPE /dmo/customer_id.
-    DATA customer    TYPE z054906_customer.
+    DATA customer    TYPE z054906_customer_info.
 
     customer_id = '000008'.
 

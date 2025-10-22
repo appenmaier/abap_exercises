@@ -10,7 +10,7 @@ ENDCLASS.
 CLASS zcl_054906_abap_cds_06 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     SELECT
-      FROM ZI_054906_CustomerKPIs( p_city = 'Berlin' )
+      FROM Z054906_CustomerKPIs( p_city = 'Berlin' )
       FIELDS *
       ORDER BY TotalRevenue DESCENDING
       INTO TABLE @FINAL(customers).
