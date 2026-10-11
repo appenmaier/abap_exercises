@@ -9,12 +9,21 @@ ENDCLASS.
 
 CLASS zcl_054906_abap_01 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-    DATA first_name TYPE string.
-    DATA last_name  TYPE string.
+    DATA title           TYPE c LENGTH 50.
+    DATA genre           TYPE c LENGTH 10.
+    DATA publishing_year TYPE n LENGTH 4.
+    DATA runtime_in_min  TYPE i.
 
-    first_name = 'Bruce'.
-    last_name = 'Wayne'.
+    " Movie Information
+    title = 'Fight Club'.
+    genre = 'Thriller'.
+    publishing_year = '1999'.
+    runtime_in_min = 139.
 
-    out->write( |Hello { first_name } {  last_name }, how are you?| ).
+    " Output
+    out->write( |Title: { title }| ).
+    out->write( |Genre: { genre }| ).
+    out->write( |Publishing Year: { publishing_year }| ).
+    out->write( |Runtime in Minutes: { runtime_in_min }| ).
   ENDMETHOD.
 ENDCLASS.
