@@ -1,4 +1,0 @@
-INTERFACE zif_054906_partner
-  PUBLIC.
-
-ENDINTERFACE.
